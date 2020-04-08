@@ -260,7 +260,7 @@ h5,
 }
 
 .site-footer ul li {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 .site-footer .footer-heading {
@@ -1199,7 +1199,7 @@ h5,
     margin-top: 10rem;
 }
 
-.work-thumb {
+.products-thumb {
     position: relative;
     display: block;
     cursor: pointer;
@@ -1208,7 +1208,7 @@ h5,
     transition: .2s all ease-in-out;
 }
 
-.work-thumb:after {
+.products-thumb:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -1224,7 +1224,7 @@ h5,
     transition: .3s all ease;
 }
 
-.work-thumb .work-text {
+.products-thumb .products-text {
     position: absolute;
     text-align: center;
     top: 50%;
@@ -1241,7 +1241,7 @@ h5,
     margin-top: 20px;
 }
 
-.work-thumb .work-text h3 {
+.products-thumb .products-text h3 {
     font-size: 1.5rem;
     font-weight: 900;
     color: #fff;
@@ -1249,25 +1249,25 @@ h5,
     padding: 0;
 }
 
-.work-thumb .work-text .category {
+.products-thumb .products-text .category {
     font-size: .8rem;
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
 }
 
-.work-thumb:hover {
+.products-thumb:hover {
     z-index: 3;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
 }
 
-.work-thumb:hover:after {
+.products-thumb:hover:after {
     opacity: .9;
     visibility: visible;
 }
 
-.work-thumb:hover .work-text {
+.products-thumb:hover .products-text {
     -webkit-transition-delay: .2s;
     -o-transition-delay: .2s;
     transition-delay: .2s;
@@ -1354,7 +1354,7 @@ h5,
 }
 
 .footer-section {
-    padding: 7em 0;
+    padding: 5em 0;
 }
 
 .footer-section p {
@@ -1366,7 +1366,7 @@ h5,
     letter-spacing: .1rem;
     text-transform: uppercase;
     color: #000;
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
     font-weight: 900;
 }
 
@@ -1376,7 +1376,7 @@ h5,
 
 footer {
     background-color: #3f3f3f;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 footer a {
@@ -1399,12 +1399,12 @@ hr.light-100 {
     margin-bottom: 1rem;
 }
 
-.process,
+.blog,
 .service {
     position: relative;
 }
 
-.process .number,
+.blog .number,
 .service .number {
     position: absolute;
     top: 50px;
@@ -1416,7 +1416,7 @@ hr.light-100 {
     font-weight: 900;
 }
 
-.process h3,
+.blog h3,
 .service h3 {
     font-size: 1.5rem;
     color: #352961;
@@ -1424,7 +1424,7 @@ hr.light-100 {
     margin-bottom: 1.5rem;
 }
 
-.process {
+.blog {
     text-align: center;
     padding: 30px;
     border: 1px solid #d9d9d9;
@@ -1600,22 +1600,22 @@ hr.light-100 {
     }
 }
 
-.pricing-wrap {
+.info-wrap {
     padding-bottom: 20rem;
     padding-top: 7rem;
 }
 
 @media (max-width: 1199.98px) {
-    .pricing-wrap {
+    .info-wrap {
         padding-bottom: 7em;
     }
 }
 
-.pricing-wrap .section-desc {
+.info-wrap .section-desc {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.pricing {
+.info {
     margin-top: -70%;
     background: #fff;
     padding: 30px;
@@ -1627,21 +1627,21 @@ hr.light-100 {
     position: relative;
 }
 
-.pricing em {
+.info em {
     font-style: normal;
 }
 
 @media (max-width: 1199.98px) {
-    .pricing {
+    .info {
         margin-top: 0;
         margin-bottom: 7rem;
     }
-    .pricing:first-child {
+    .info:first-child {
         margin-top: -70px;
     }
 }
 
-.pricing.pricing-popular {
+.info.info-popular {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -1649,29 +1649,29 @@ hr.light-100 {
 }
 
 @media (max-width: 1199.98px) {
-    .pricing.pricing-popular {
+    .info.info-popular {
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
     }
 }
 
-.pricing h3 {
+.info h3 {
     color: #352961;
     font-weight: 300;
     margin-bottom: 1.5rem;
 }
 
-.pricing .description,
-.pricing .description-2 {
+.info .description,
+.info .description-2 {
     font-size: 15px;
 }
 
-.pricing .price {
+.info .price {
     margin: 30px 0;
 }
 
-.pricing .price span {
+.info .price span {
     display: block;
     font-weight: 700;
     font-size: 13px;
@@ -1680,14 +1680,14 @@ hr.light-100 {
     color: #352961;
 }
 
-.pricing .price strong {
+.info .price strong {
     font-weight: 300;
     font-family: "Oswald", sans-serif;
     color: #352961;
     font-size: 4rem;
 }
 
-.pricing .btn {
+.info .btn {
     border-width: 2px;
 }
 
