@@ -69,6 +69,10 @@ h5,
     color: rgba(255, 255, 255, 0.5);
 }
 
+#fit-home .img-fluid {
+    height: 550px;
+}
+
 .site-wrap:before {
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
@@ -189,6 +193,10 @@ h5,
 .form-control:active,
 .form-control:focus {
     border-color: #352961;
+}
+
+.owl-carousel .mb-5 {
+    color: #000;
 }
 
 .form-control:hover,
@@ -1279,6 +1287,12 @@ h5,
     visibility: visible;
     margin-top: 0px;
 }
+
+
+/* .image-fit {
+    height: 350px;
+    width: 300px;
+} */
 
 .nonloop-block-13 .owl-nav {
     display: none;
