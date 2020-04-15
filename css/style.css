@@ -70,7 +70,26 @@ h5,
 }
 
 #fit-home .img-fluid {
-    height: 550px;
+    height: 400px;
+}
+
+#fit-faculty .img-fluid {
+    height: 600px;
+}
+
+@media (min-width: 360px) {
+    #fit-home .img-fluid {
+        width: 300px;
+        height: 350px;
+    }
+    #fit-faculty .img-fluid {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+#home-section {
+    height: 500px;
 }
 
 .site-wrap:before {
