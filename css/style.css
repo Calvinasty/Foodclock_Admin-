@@ -57,6 +57,11 @@ h5,
     color: #000 !important;
 }
 
+#right {
+    float: right;
+    margin-top: 50px;
+}
+
 .bg-black {
     background: #000 !important;
 }
@@ -69,25 +74,24 @@ h5,
     color: rgba(255, 255, 255, 0.5);
 }
 
-#fit-home .img-fluid {
-    height: 400px;
-}
-
-#fit-faculty .img-fluid {
-    height: 600px;
-}
-
 @media (min-width: 360px) {
-    #fit-home .img-fluid {
-        height: 310px;
-    }
-    #fit-faculty .img-fluid {
-        height: 300px;
+    h4 .mb-5 {
+        font-style: normal;
     }
 }
 
 #home-section {
     height: 500px;
+}
+
+#fit-home .img-fluid {
+    height: 500px;
+    width: max-content;
+}
+
+#fit-faculty .img-fluid {
+    height: 550px;
+    width: max-content;
 }
 
 .site-wrap:before {
@@ -1457,6 +1461,28 @@ hr.light-100 {
     color: #352961;
     font-weight: 700;
     margin-bottom: 1.5rem;
+}
+
+.ses-title {
+    font-size: 2.2rem;
+    color: #352961;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#session-section p {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+#session-section {
+    color: #000;
+}
+
+.session-section h3 {
+    font-size: 1.5rem;
+    color: #352961;
+    font-weight: 700;
 }
 
 .blog {
