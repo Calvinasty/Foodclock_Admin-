@@ -89,10 +89,11 @@ h5,
     width: max-content;
 }
 
-#fit-faculty .img-fluid {
+
+/* #fit-faculty .img-fluid {
     height: 550px;
     width: max-content;
-}
+} */
 
 .site-wrap:before {
     -webkit-transition: .3s all ease-in-out;
@@ -1464,7 +1465,7 @@ hr.light-100 {
 }
 
 .ses-title {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     color: #352961;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -1472,17 +1473,16 @@ hr.light-100 {
 
 #session-section p {
     font-size: 1.2rem;
-    color: #000;
 }
 
-#session-section {
-    color: #000;
+#session-section p {
+    color: black;
+    font-size: 1.1rem;
 }
 
 .session-section h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #352961;
-    font-weight: 700;
 }
 
 .blog {
