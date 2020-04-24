@@ -1472,17 +1472,16 @@ hr.light-100 {
 }
 
 #session-section p {
-    font-size: 1.2rem;
-}
-
-#session-section p {
     color: black;
-    font-size: 1.1rem;
 }
 
 .session-section h3 {
     font-size: 1.2rem;
     color: #352961;
+}
+
+#session-section {
+    background-color: white;
 }
 
 .blog {
