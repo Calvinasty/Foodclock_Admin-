@@ -89,6 +89,11 @@ h5,
     width: max-content;
 }
 
+#fit-big {
+    width: 500px;
+    height: 600px;
+}
+
 
 /* #fit-faculty .img-fluid {
     height: 550px;
@@ -221,6 +226,10 @@ h5,
     color: #000;
 }
 
+.slide-text {
+    color: white;
+}
+
 .form-control:hover,
 .form-control:active,
 .form-control:focus {
@@ -304,6 +313,18 @@ h5,
     background-image: -webkit-linear-gradient(left, rgba(15, 157, 88, .8), rgba(15, 157, 88, .6), rgba(0, 0, 0, 0));
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.new {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
 }
 
 .bg-text-line {
