@@ -37,6 +37,7 @@
   font-smoothing: antialiased;
 }
 
+
 .flaticon-reload:before { content: "\f100"; }
 .flaticon-download:before { content: "\f101"; }
 .flaticon-monitor:before { content: "\f102"; }
