@@ -1138,6 +1138,12 @@ p {
     border-bottom-right-radius: 200px;
 }
 
+.eai-bg {
+    background: #352961;
+    padding: 50px;
+    border-radius: 20px;
+}
+
 @media (max-width: 991.98px) {
     .intro-section:before {
         width: 100%;
